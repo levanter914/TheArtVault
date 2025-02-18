@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Gallery from "../components/Gallery";
 
 const Home = () => {
   const images = [
@@ -36,11 +37,12 @@ const Home = () => {
 
           <h1 className="text-4xl text-gray-600 mb-4">Welcome to The Art Vault</h1>
 
-          <button className="mt-2 px-6 py-2 bg-blue-800 text-white font-semibold rounded-full border-2 border-transparent hover:bg-white hover:text-blue-800 hover:border-blue-800 transition duration-300">
+          <button className="mt-2 px-6 py-2 bg-blue-800 text-white  rounded-full border-2 border-transparent hover:bg-white hover:text-blue-800 hover:border-blue-800 transition duration-300">
             About Us
           </button>
         </div>
       </div>
+      <Gallery />
     </div>
   );
 };
