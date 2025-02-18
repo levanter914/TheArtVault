@@ -37,7 +37,7 @@ const Form = () => {
 
   return (
     <div className="bg-white min-h-screen flex items-center justify-center py-12 mt-4 relative">
-      <div className="max-w-3xl w-full mx-auto p-8 bg-zinc-50 rounded-lg shadow-lg">
+      <div className="max-w-3xl w-full mx-auto p-8 bg-zinc-50 rounded-lg shadow-md mt-4">
         <h2 className="text-3xl font-semibold text-gray-600 mb-4 text-center">
           Submit Your Art
         </h2>

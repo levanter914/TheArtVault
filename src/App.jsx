@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Form from "./components/Form";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/form" element={<Form />} />
-          
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </div>
